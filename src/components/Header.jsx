@@ -9,8 +9,10 @@ function Header() {
             </div>
             <div className="nav-btn">
               <button>Email us</button>
+              Learning Git commands practically.
             </div>
           </div>
+          
   )
 }
 
