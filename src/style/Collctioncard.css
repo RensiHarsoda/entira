@@ -1,0 +1,68 @@
+.border-collction{
+    border: 1px solid orange;
+    width: 100px;
+    
+}
+.collctions-wrap-card{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* position: relative; */
+
+}
+.collctions-cards{
+    position: absolute;
+    top:1900px;
+    left: 100px;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: #f5f4f3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.collctions-cards h2{
+    text-align: center;
+    color: #3d3a3a;
+     font-family: "Philosopher", sans-serif;
+     padding-top: 20px;
+     
+}
+.coll-card1{
+    width: 300px;
+    
+}
+.coll-card1:hover{
+    border-radius: 10px;
+    background-color: #eee4df;
+}
+.images{
+    text-align: center;
+    margin: 0px 20px 0px;
+    padding: 20px 0px;
+    
+}
+.images img{
+    width:250px;
+    border-radius: 10px;
+    
+}
+.inquire-btn{
+    text-align: center;
+}
+.inquire-btn button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #f8f2f0;
+    background-color: #D0a38d;
+    margin-bottom: 20px;
+}
+.collctions-cards2{
+    display: none;
+}
+
+

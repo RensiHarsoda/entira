@@ -1,0 +1,46 @@
+.explore-main-sec{
+    background-image: url(../images/explore2.jpg);
+    min-height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+     margin-bottom: 60px;
+    position: relative;
+}
+.explore-main-sec2{
+    display: none;
+}
+.overlay {
+position: absolute;
+inset: 0;
+background: linear-gradient(to bottom right, rgba(252, 252, 251, 0.5), rgba(237, 219, 189, 0.5));
+z-index: 1;
+
+}
+.explore-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    z-index: 2;
+    /* top: 0;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+.explore-content h1{
+    color:#523c36;
+    font-size:60px;
+    font-weight:600;
+    font-family:"Philosopher", sans-serif;
+}
+.explore-content p{
+    color:#494242;
+    font-size:17px;
+    font-weight:500;
+    font-family:"Molish";
+    width: 50%;
+}

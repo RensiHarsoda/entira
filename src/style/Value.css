@@ -1,0 +1,77 @@
+.main-value-sec{
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: #f8f2f0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px auto;
+    max-width: 1320px;
+    margin-left:100px;
+     
+}
+.value-content{
+    padding: 30px 0px 0px 30px;
+    width: 50%;
+}
+.heading-dets h2{
+    font-size:15px;
+    font-family:"Mulish";
+    color:#d0a38d;
+    font-weight:500;
+    letter-spacing: 2.5px;
+    margin: 20px 0px;
+}
+.heading-dets h1{
+    font-size:45px;
+    font-family:"Philosopher";
+    color:#928380;
+    font-weight:600;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.heading-dets p{
+    font-size:15px;
+    font-family: "Mulish";;
+    color: #928380;
+    font-weight:500;
+     width: 44ch;
+}
+.value-border{
+    border: 1px solid #d0a38d;
+    width:500px;
+}
+.img-w{
+    width: 60px;
+}
+.img-w-2{
+    width: 60px;
+}
+/* .value-girl-img{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+} */
+.girl-img{
+    width: 650px;
+    height: 100%;
+    
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+.value-wrap{
+    display: flex;
+    padding-top: 20px;
+    
+}
+.value-dets span{
+    color:#928380;
+    font-size:25px;
+    font-family:"philosopher";
+
+}
+.value-dets p{
+    color:#928380;
+    font-size:17px;
+    font-family:"philosopher";
+    width: 70%;
+}

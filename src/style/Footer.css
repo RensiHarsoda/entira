@@ -1,0 +1,107 @@
+.footer-main-sec{
+    background-color: #f8f2f0;
+    height: 360px;
+    margin-top: 130px;
+    /* margin-bottom: 20px; */
+}
+.footer-box-wrap{
+    height: 320px;
+    width: 90%;
+    background-color: #fcfafa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px #f5ebeb;
+    position: relative;
+    bottom: 20px;
+}
+.footer-content{
+   justify-content: space-between !important;
+   display: flex;
+   padding: 30px;
+}
+.office h1{
+    font-size: 30px;
+    color: #928380;
+    font-family: "Philosopher";
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.dets i {
+    color: #928380;
+    padding-right: 30px;
+}
+.dets span {
+    color: #928380;
+    font-size: 15px;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.support h1{
+    font-size: 30px;
+    color: #928380;
+    font-family: "Philosopher";
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.support span {
+    color: #928380;
+    font-size: 15px;
+    
+}
+.offers{
+    width: 30%;
+    
+}
+.offers h1{
+    font-size: 30px;
+    color: #928380;
+    font-family: "Philosopher";
+     width: 100%;
+      font-weight: 800;
+    padding-bottom: 10px;
+}
+.offers p{
+    font-size: 17px;
+    color: #e2d8d5;
+    font-family: "Philosopher";
+    width: 100%;
+}
+.mail{
+    display: flex;
+    justify-content: end;
+    padding-right: 38px;
+    gap: 20px;
+    
+}
+.input-mail{
+    border: none;
+    background-color: #faedeb;
+    padding: 8px 15px;
+    border-radius: 10px;
+    width: 20%;
+    outline: none;
+}
+/* .assi-btn-design{
+    text-align: center;
+} */
+.footer-btn-design button{
+    padding: 8px 23px;
+    border-radius: 5px;
+    border: none;
+    color: #f8f2f0;
+    background-color: #D0a38d;
+    
+}
+.copyright{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ 
+}
+.copyright p{
+    color: #6e6d6c;
+}

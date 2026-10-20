@@ -1,0 +1,67 @@
+.assi-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.assi-heading h1{
+    color:#928380;
+    font-size:50px;
+    font-weight:600;
+    font-family:"philosopher";
+}
+.assi-heading p{
+     color:#968987;
+    font-size:17px;
+    font-weight:400;
+    font-weight:"Philosopher";
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.assi-card-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.assi-card{
+    
+    border-radius:10px;
+    background-color: #f8f2f0;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+.assi-card h2{
+    color:#928380;
+    font-size:40px;
+    font-weight:500;
+    font-family:"Philosopher";
+
+}
+.assi-card p{
+    color:#928380;
+    font-size:15px;
+    font-weight:500;
+    font-family:"Mulish";
+    text-align: center;
+}
+.assi-card-img img{
+    width: 50px;
+}
+.assi-btn-design{
+    text-align: center;
+}
+.assi-btn-design button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: #f8f2f0;
+    background-color: #D0a38d;
+    
+}

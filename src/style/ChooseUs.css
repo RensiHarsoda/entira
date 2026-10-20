@@ -1,0 +1,99 @@
+.choose-main-sec{
+    /* background-image: url(../images/bg.png); */
+    /* background-color: aliceblue; */
+    /* background-size: 100% 100%; */
+    /* background-repeat: repeat;
+    margin: 300px 0px 0px;  
+    height: 600px; */
+    position:absolute;
+    top: 0px;
+    width: 100%;
+}
+.main-wrap-chooseus{
+    position: relative;
+    margin: 300px 0px 0px;  
+
+}
+.bg-image{
+    background-image: url(../images/bg.png); 
+    background-repeat: repeat;
+
+    height: 600px;
+    opacity: 0.3;
+    position:relative;
+
+}   
+.choose-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0px auto;
+    
+   
+}
+.choose-heading h2{
+    font-size: 17px;
+    color: #d0a38d;
+    font-family: "Mulish", sans-serif;
+;
+}
+.choose-heading h1{
+    font-size: 60px;
+    color: #928380;
+    font-weight: 700;
+     padding-top: 20px;
+     font-family:"Philosopher", sans-serif;
+}
+.choose-heading p{
+    font-size: 17px;
+    color: #928380;
+    text-align: center;
+    padding-top: 20px;
+    width: 65ch;
+    font-family:  "Mulish", sans-serif;
+    font-weight: 500;
+}
+
+/* card */
+.chooseus-card-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.chooseus-card{
+    
+    border-radius:10px;
+    background-color: #f8f2f0;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+.chooseus-card h2{
+    color:#928380;
+    font-size:30px;
+    font-weight:500;
+    font-family:"Philosopher", sans-serif
+
+}
+.chooseus-card p{
+    color:#928380;
+    font-size:15px;
+    font-weight:500;
+    font-family:"Mulish";
+    text-align: center;
+}
+.choose-card-img img{
+    width: 80px;
+}
+.chooseus-card-wrap2{
+      display: none;
+    }
+
+/* res card */
+

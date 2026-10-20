@@ -1,0 +1,43 @@
+.main-wrap-hero {
+  background-image: url(../images/bg-hero.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  min-height: 90vh;
+  /* object-fit: contain; */
+  position: relative;
+}
+.hero-img {
+  display: none;
+}
+.hero-content {
+  /* margin-top: 40px; */
+  padding-top: 170px;
+}
+.hero-heading {
+  font-size: 18px;
+  font-family: Mulish;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.hero-para {
+  font-size: 40px;
+  font-family: proximity;
+  font-weight: 900;
+  color: #f8f2f0;
+  max-width: 40ch;
+  line-height: 1.5;
+}
+.hero-para2 {
+  font-size: 17px;
+  font-family: Mulish;
+  font-weight: 300;
+  color: #f8f2f0;
+  max-width: 80ch;
+  line-height: 1.5;
+  word-spacing: 2px;
+  margin-top: 20px;
+}

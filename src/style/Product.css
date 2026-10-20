@@ -1,0 +1,28 @@
+/* .trands-heading{
+    margin-top: 150px;
+} */
+
+.Product-main-sec{
+    margin-top: 150px;
+}
+.Product-heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+.Product-heading h1{
+    color:#928380;
+    font-size:50px;
+    font-family:"philosopher";
+    font-weight:600;
+}
+.Product-heading p{
+    color:#b9aeac;
+    font-size:16px;
+    font-family:"Molish";
+    font-weight:300;
+    width: 40%;
+    padding: 20px 0px;
+    text-align: center;
+}

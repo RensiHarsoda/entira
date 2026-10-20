@@ -1,0 +1,50 @@
+.collctions-wrap-sec {
+  background-image: url(../images/bg-collctions.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  min-height: 70vh;
+  /* object-fit: contain; */
+  position: relative;
+
+  
+}
+.overlay {
+position: absolute;
+inset: 0;
+background: linear-gradient(to bottom right, rgba(252, 252, 251, 0.5), rgba(237, 219, 189, 0.5));
+z-index: 1;
+
+}
+.collction-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+.collction-content h1{
+    font-size: 60px;
+    font-weight:bold;
+    color: #523c36;
+    z-index: 2;
+    font-family: "Philosopher", sans-serif;
+}
+.collction-content p{
+    font-size: 17px;
+    font-weight:500;
+    color: #494242;
+    padding-top: 30px;
+    width: 500px;
+    z-index: 2;
+    font-family: proximity;
+}
+.bg-color{
+      margin-top: 200px;
+      height: 100px;
+    background-color: #f8f2f0;
+    /* border: 2px solid black; */
+}
